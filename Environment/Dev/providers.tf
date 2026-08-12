@@ -1,11 +1,12 @@
 terraform {
-    # backend "azurerm" {
-    #     storage_account_name = "trtstorage"
-    #     container_name = "rt-container"
-    #     resource_group_name = "rg-mango"
-    #     key = "pipe.tfstate"
-      
-    # }
+  backend "azurerm" {
+      storage_account_name = "trtstorage"
+      container_name = "rt-container"
+      resource_group_name = "rg-mango"
+      key = "pipe.tfstate"
+
+  }
+  
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
