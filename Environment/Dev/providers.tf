@@ -1,12 +1,12 @@
 terraform {
   backend "azurerm" {
-      storage_account_name = "trtstorage"
-      container_name = "rt-container"
-      resource_group_name = "RT-S"
-      key = "pipe.tfstate"
+    storage_account_name = "trtstorage"
+    container_name       = "rt-container"
+    resource_group_name  = "RT-S"
+    key                  = "pipe.tfstate"
 
   }
-  
+
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
