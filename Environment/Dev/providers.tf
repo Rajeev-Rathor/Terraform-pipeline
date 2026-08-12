@@ -2,7 +2,7 @@ terraform {
   backend "azurerm" {
       storage_account_name = "trtstorage"
       container_name = "rt-container"
-      resource_group_name = "rg-mango"
+      resource_group_name = "RT-S"
       key = "pipe.tfstate"
 
   }
