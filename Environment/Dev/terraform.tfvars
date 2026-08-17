@@ -17,4 +17,11 @@ v_ntrk = {
     resource_group_name = "rg-mango"
     address_space       = ["10.0.0.0/16"]
   }
+
+  vnt1 = {
+    name                = "vnet-apple"
+    location            = "centralindia"
+    resource_group_name = "rg-apple"
+    address_space       = ["10.0.0.0/16"]
+}
 }
