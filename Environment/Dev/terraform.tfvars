@@ -23,5 +23,5 @@ v_ntrk = {
     location            = "centralindia"
     resource_group_name = "rg-apple"
     address_space       = ["10.0.0.0/16"]
-}
+  }
 }
